@@ -46,3 +46,7 @@ kubectl apply -f kafka/20dns.yml
 kubectl apply -f kafka/30bootstrap-service.yml
 
 kubectl apply -f kafka/50kafka.yml
+
+
+kubectl get storageclasses.storage.k8s.io,all,pv,pvc -n kafka
+

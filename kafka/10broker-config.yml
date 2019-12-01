@@ -254,3 +254,9 @@ data:
     # Change to DEBUG to enable audit log for the authorizer
     log4j.logger.kafka.authorizer.logger=WARN, authorizerAppender
     log4j.additivity.kafka.authorizer.logger=false
+
+
+    ############################# Enable Large messages Settings #############################
+
+    replica.fetch.max.bytes=15048576
+    message.max.bytes=15048576
