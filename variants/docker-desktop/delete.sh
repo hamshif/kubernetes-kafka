@@ -52,7 +52,16 @@ kubectl delete -f rbac-namespace-default/node-reader.yml
 #kubectl delete -f 00-namespace.yml
 
 
+#example
 
+#kubectl patch persistentvolume/pvc-be94711c-1405-11ea-bab6-025000000001 -p '{"metadata":{"finalizers": []}}' --type=merge
+#kubectl patch persistentvolume/pvc-be95e484-1405-11ea-bab6-025000000001 -p '{"metadata":{"finalizers": []}}' --type=merge
+#kubectl patch persistentvolume/pvc-be974d85-1405-11ea-bab6-025000000001 -p '{"metadata":{"finalizers": []}}' --type=merge
+#kubectl patch persistentvolume/pvc-bea93735-1405-11ea-bab6-025000000001 -p '{"metadata":{"finalizers": []}}' --type=merge
+#kubectl patch persistentvolume/pvc-beaaafef-1405-11ea-bab6-025000000001 -p '{"metadata":{"finalizers": []}}' --type=merge
+#kubectl patch persistentvolume/pvc-bf008e59-1405-11ea-bab6-025000000001 -p '{"metadata":{"finalizers": []}}' --type=merge
+#kubectl patch persistentvolume/pvc-c6840151-1205-11ea-bab6-025000000001 -p '{"metadata":{"finalizers": []}}' --type=merge
+#kubectl patch persistentvolume/pvc-c68539e6-1205-11ea-bab6-025000000001 -p '{"metadata":{"finalizers": []}}' --type=merge
 
 
 
